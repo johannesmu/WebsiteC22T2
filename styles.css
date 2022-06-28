@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+}
+.logo {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.navigation {
+    background-color: rgb(208, 253, 231);
+    text-align: center;
+}
