@@ -44,3 +44,24 @@ body {
 .card img {
     max-width: 100%;
 }
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social a {
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding:10px;
+    margin: 0 15px;
+}
+.social a:hover {
+    color: orange;
+}
+.copyright {
+    text-align: center;
+}
