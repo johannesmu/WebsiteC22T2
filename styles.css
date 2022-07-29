@@ -1,5 +1,6 @@
 body {
     background-color: aquamarine;
+    font-family: 'Merriweather', serif;
 }
 .main-header {
     display: flex;
@@ -29,6 +30,9 @@ body {
     background-position: center center;
     display: grid;
     place-items: center;
+    font-family: 'Monoton', cursive;
+    color: yellow;
+    text-shadow: 4px 10px 10px black;
 }
 .content {
     display: grid;
