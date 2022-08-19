@@ -2,8 +2,12 @@ body {
     background-color: aquamarine;
     font-family: 'Merriweather', serif;
 }
+img {
+    max-width: 100%;
+}
 .main-header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -64,4 +68,18 @@ body {
 }
 .copyright {
     text-align: center;
+}
+
+/* contact page */
+.contact-banner {
+    min-height: 50vh;
+    background-color: #cccccc;
+    background-image: url('images/annie-spratt-cZkFw06aX_8-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    place-items: center;
+    font-family: 'Monoton', cursive;
+    color: yellow;
+    text-shadow: 4px 10px 10px black;
 }
