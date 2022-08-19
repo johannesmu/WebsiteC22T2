@@ -83,3 +83,9 @@ img {
     color: yellow;
     text-shadow: 4px 10px 10px black;
 }
+.contact {
+    grid-column: span 3;
+}
+#contact-form {
+    
+}
